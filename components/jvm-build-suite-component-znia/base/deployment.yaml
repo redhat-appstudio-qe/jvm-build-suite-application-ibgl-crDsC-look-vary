@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-znia
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:224349d41ac646c0af11011f9ab12d9a
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:e580a539011ad79db1b775632242ef78b8275b290853166b98e4c16a58a120f0
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-znia
     app.kubernetes.io/part-of: jvm-build-suite-application-ibgl
-  name: jvm-build-suite-componentpgvr
+  name: jvm-build-suite-component1rfm
   namespace: jvm-build-yesr-tenant
 spec:
   port:
